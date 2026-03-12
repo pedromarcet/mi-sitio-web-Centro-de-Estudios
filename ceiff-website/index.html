@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEIFF | Centro de Estudios e Investigación de Fútbol Formativo</title>
+    <meta name="description"
+        content="Centro de Estudios e Investigación en Fútbol Formativo. Un espacio donde la ética, la ciencia y la pedagogía se unen para devolverle al fútbol base su verdadera misión.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-futbol"></i></span>
+                <span class="logo-text">CEIFF</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#centro">El Centro</a></li>
+                <li><a href="#modelo">Modelo</a></li>
+                <li><a href="#investigacion">Investigación</a></li>
+                <li><a href="#capacitacion">Capacitación</a></li>
+                <li><a href="#expertos">Expertos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#unete" class="btn-nav">Únete</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== 1. INICIO — HERO ===== -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-content">
+            <div class="hero-badge reveal">
+                <span class="badge-dot"></span>
+                Centro de Estudios e Investigación en Fútbol Formativo
+            </div>
+            <h1 class="reveal delay-1">Más allá del marcador,<br><span class="text-gradient">formamos personas.</span>
+            </h1>
+            <p class="hero-description reveal delay-2">Bienvenidos al Centro de Estudios e Investigación en Fútbol
+                Formativo. Un espacio donde la ética, la ciencia y la pedagogía se unen para devolverle al fútbol base
+                su verdadera misión: proteger el bienestar del menor y utilizar el deporte como un laboratorio de
+                aprendizaje existencial.</p>
+            <div class="hero-btns reveal delay-3">
+                <a href="#modelo" class="btn btn-primary">
+                    Conoce Nuestro Modelo
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#unete" class="btn btn-glass">
+                    Únete a la Plataforma
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- ===== MANIFIESTO (Resumen del problema) ===== -->
+    <section class="manifesto-section">
+        <div class="container">
+            <div class="manifesto-block reveal">
+                <div class="manifesto-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                <h2>El problema y nuestra solución</h2>
+                <p class="manifesto-text">El fútbol actual ha mecanizado el deporte, tratando a los niños como meros
+                    proyectos de rendimiento. La trituradora de la élite nos ha hecho olvidar que no formamos simples
+                    futbolistas, sino <strong>ciudadanos justos</strong>.</p>
+                <p class="manifesto-text highlight">Nuestra Plataforma propone una revolución: un <em>Modelo de Acción
+                        Humana</em> donde el rigor ético y la excelencia intelectual sean los cimientos del rendimiento
+                    real.</p>
+            </div>
+
+            <div class="pillars-quick">
+                <a href="#modelo" class="pillar-link reveal">
+                    <div class="pillar-number">01</div>
+                    <h3>Nuestra Filosofía</h3>
+                    <p>De la máquina a la persona compleja.</p>
+                    <span class="pillar-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#investigacion" class="pillar-link reveal delay-1">
+                    <div class="pillar-number">02</div>
+                    <h3>El Laboratorio</h3>
+                    <p>Investigación rigurosa traducida al "barro".</p>
+                    <span class="pillar-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#capacitacion" class="pillar-link reveal delay-2">
+                    <div class="pillar-number">03</div>
+                    <h3>Capacitación 360º</h3>
+                    <p>Formación para entrenadores, directivos y familias.</p>
+                    <span class="pillar-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 2. EL CENTRO (Sobre Nosotros) ===== -->
+    <section id="centro" class="about-section">
+        <div class="about-bg-image"></div>
+        <div class="about-overlay"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">El Centro</span>
+                <h2 class="section-title">Visión y <span class="text-gradient">Propósito</span></h2>
+                <p class="section-subtitle">El fútbol constituye un fenómeno social y ontológico de primer orden.
+                    Nuestro Centro nace para liderar una transición estratégica: dejar de lado el entrenamiento
+                    convencional basado en la dirección ciega para crear un ecosistema de vanguardia.</p>
+            </div>
+
+            <div class="about-statement reveal">
+                <p>Entendemos que el éxito en el campo es solo la consecuencia natural de un proceso educativo robusto y
+                    consciente.</p>
+            </div>
+
+            <div class="section-header reveal" style="margin-top: 4rem;">
+                <h3 class="subsection-title">Nuestra Arquitectura Organizacional</h3>
+                <p class="section-subtitle">No somos un repositorio estático de manuales, sino un <em>"organismo
+                        vivo"</em> sostenido por tres pilares:</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card glass-card reveal">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon"><i class="fas fa-compass"></i></div>
+                    </div>
+                    <h3>El Modelo</h3>
+                    <p>La brújula conceptual que rige nuestras decisiones.</p>
+                </div>
+                <div class="about-card glass-card reveal delay-1">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon"><i class="fas fa-drafting-compass"></i></div>
+                    </div>
+                    <h3>Los Especialistas</h3>
+                    <p>Arquitectos del talento que actúan como puente entre la teoría humanista y el campo.</p>
+                </div>
+                <div class="about-card glass-card reveal delay-2">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <h3>Las Personas</h3>
+                    <p>El núcleo de nuestro proyecto, individuos en constante evolución.</p>
+                </div>
+            </div>
+
+            <div class="commitment-box glass-card reveal">
+                <div class="commitment-icon"><i class="fas fa-scroll"></i></div>
+                <div class="commitment-content">
+                    <h3>Nuestro Compromiso: El Manifiesto de Trascendencia</h3>
+                    <p>El éxito de este Centro no se medirá en trofeos, sino en la huella que dejemos en la sociedad.
+                        Nos comprometemos con la <strong>innovación cognitiva</strong>, la <strong>dimensión
+                            humana</strong> y un <strong>liderazgo que nace de la identidad</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3. MODELO DE ACCIÓN HUMANA ===== -->
+    <section id="modelo" class="model-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Nuestra Filosofía</span>
+                <h2 class="section-title">Modelo de <span class="text-gradient">Acción Humana</span></h2>
+                <p class="section-subtitle">De la Máquina a la Persona: un abordaje desde la complejidad</p>
+            </div>
+
+            <div class="model-intro reveal">
+                <p>Nos oponemos frontalmente al <strong>reduccionismo técnico-táctico</strong>. El fútbol es un sistema
+                    dinámico de decisiones humanas.</p>
+            </div>
+
+            <div class="dimensions-header reveal">
+                <h3 class="subsection-title">Las 3 Dimensiones Jerárquicas</h3>
+                <p>Estructuramos el desarrollo en un orden innegociable, donde el <strong>ser siempre precede al
+                        hacer</strong>:</p>
+            </div>
+
+            <div class="dimensions-pyramid">
+                <div class="dimension-card dim-1 reveal">
+                    <div class="dim-level">Base</div>
+                    <div class="dim-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>1. Condición Humana</h3>
+                    <p>La base que reconoce al jugador como un ser biopsicosocial.</p>
+                </div>
+                <div class="dimension-card dim-2 reveal delay-1">
+                    <div class="dim-level">Nivel 2</div>
+                    <div class="dim-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>2. Educación (Pedagogía)</h3>
+                    <p>El andamiaje formativo que estructura la adquisición de saberes y valores.</p>
+                </div>
+                <div class="dimension-card dim-3 reveal delay-2">
+                    <div class="dim-level">Nivel 3</div>
+                    <div class="dim-icon"><i class="fas fa-futbol"></i></div>
+                    <h3>3. Fútbol como Especialización</h3>
+                    <p>El estadio final donde se refinan las competencias técnicas de nuestro deporte.</p>
+                </div>
+            </div>
+
+            <div class="thinking-section reveal">
+                <div class="thinking-card glass-card">
+                    <div class="thinking-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Pensamiento Crítico y Complejo</h3>
+                    <p>No queremos jugadores autómatas. Fomentamos el <strong>pensamiento crítico</strong> para que el
+                        jugador cuestione, evalúe y no repita patrones irreflexivamente, y el <strong>pensamiento
+                            complejo</strong> para que lea el juego como un todo interconectado.</p>
+                    <p class="thinking-highlight">Esta sofisticación cognitiva es nuestra verdadera ventaja competitiva.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 4. INVESTIGACIÓN (El Laboratorio) ===== -->
+    <section id="investigacion" class="research-section">
+        <div class="tactics-bg-image"></div>
+        <div class="tactics-overlay"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">El Laboratorio</span>
+                <h2 class="section-title">Investigación al servicio <span class="text-gradient">del formador</span></h2>
+                <p class="section-subtitle">A diferencia del mundo académico tradicional, nosotros no investigamos
+                    simplemente para engordar currículums o publicar artículos que nadie lee. Nuestra ciencia está al
+                    servicio del formador.</p>
+            </div>
+
+            <div class="research-paths">
+                <div class="research-path glass-card reveal">
+                    <div class="path-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Investigación Pura y Aplicada</h3>
+                    <p>Proyectos a largo plazo diseñados por nuestros expertos para validar, con datos reales, cómo el
+                        cuidado integral de la persona mejora el rendimiento deportivo y previene el abandono.</p>
+                </div>
+                <div class="research-path glass-card reveal delay-1">
+                    <div class="path-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Síntesis y "Traducción al Barro"</h3>
+                    <p>Recopilamos, ordenamos y traducimos las investigaciones universitarias y psicológicas ya
+                        existentes para convertirlas en herramientas didácticas, prácticas y directas para el entrenador
+                        de fin de semana.</p>
+                </div>
+            </div>
+
+            <div class="section-header reveal" style="margin-top: 5rem;">
+                <h3 class="subsection-title">Líneas de Investigación: Nuestros 5 Pilares</h3>
+                <p class="section-subtitle">Nuestra investigación no busca acumular papers académicos que nadie lee,
+                    sino resolver los problemas reales del "barro". Todas ellas atravesadas por un objetivo
+                    innegociable: <strong>proteger la salud mental y el bienestar emocional del menor</strong>.</p>
+            </div>
+
+            <div class="research-grid">
+                <div class="research-card reveal">
+                    <div class="research-card-bg"></div>
+                    <div class="research-number">01</div>
+                    <div class="research-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>El juego: motor desarrollador</h3>
+                    <p>Investigamos y denunciamos el gran error del fútbol base actual: la "deportivización" prematura
+                        de la infancia. Apoyados en la praxiología motriz y en los derechos del niño, defendemos que las
+                        primeras etapas deben ser estrictamente lúdicas. El juego libre es el simulador donde el niño
+                        explora sin miedo al error.</p>
+                    <div class="research-tags">
+                        <span>Juego Libre</span>
+                        <span>Praxiología</span>
+                        <span>Derechos del Niño</span>
+                    </div>
+                </div>
+                <div class="research-card reveal delay-1">
+                    <div class="research-card-bg"></div>
+                    <div class="research-number">02</div>
+                    <div class="research-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Planificación y metodología: sistemas dinámicos</h3>
+                    <p>Huimos de los "métodos" cerrados que imponen patrones rígidos, para investigar y proponer un
+                        Modelo abierto. Basándonos en el pensamiento complejo, entendemos el fútbol como un sistema
+                        dinámico. Nuestra investigación didáctica dota al entrenador de herramientas para que el niño
+                        resuelva problemas desde la comprensión del juego.</p>
+                    <div class="research-tags">
+                        <span>Complejidad</span>
+                        <span>Modelo Abierto</span>
+                        <span>Autoestima</span>
+                    </div>
+                </div>
+                <div class="research-card reveal delay-2">
+                    <div class="research-card-bg"></div>
+                    <div class="research-number">03</div>
+                    <div class="research-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>El entrenador formador: de instructor a posibilitador</h3>
+                    <p>El fútbol base sufre por la falta de formación pedagógica de sus técnicos. Investigamos cómo
+                        transformar al clásico "instructor" en un "posibilitador" de aprendizaje. Un técnico que utiliza
+                        la "escucha activa" y no impone, crea un entorno deportivo seguro.</p>
+                    <div class="research-tags">
+                        <span>Psicología Deportiva</span>
+                        <span>Escucha Activa</span>
+                        <span>Prevención</span>
+                    </div>
+                </div>
+                <div class="research-card reveal">
+                    <div class="research-card-bg"></div>
+                    <div class="research-number">04</div>
+                    <div class="research-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3>Ética y valores: formar ciudadanos</h3>
+                    <p>La meta del deporte educativo no es crear piezas competitivas para el mercado, sino formar
+                        "ciudadanos justos" y no confundir "valor y precio". Investigamos cómo operativizar la ética
+                        para que se convierta en conductas medibles.</p>
+                    <div class="research-tags">
+                        <span>Ética Aplicada</span>
+                        <span>Juga Verd Play</span>
+                        <span>Civismo</span>
+                    </div>
+                </div>
+                <div class="research-card reveal delay-1">
+                    <div class="research-card-bg"></div>
+                    <div class="research-number">05</div>
+                    <div class="research-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>La comunidad: trabajo en red</h3>
+                    <p>El niño no juega aislado; se desarrolla en un ecosistema. Investigamos la sociología del entorno
+                        para transformar a los padres: de verlos como un "problema" a integrarlos como "aliados
+                        estratégicos". Educar a la grada elimina la presión sobre el niño.</p>
+                    <div class="research-tags">
+                        <span>Familias</span>
+                        <span>Red Social</span>
+                        <span>Comunidad</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 5. CAPACITACIÓN Y FORMACIÓN 360º ===== -->
+    <section id="capacitacion" class="training-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">🎓 Formación</span>
+                <h2 class="section-title">Capacitación <span class="text-gradient">360º</span></h2>
+                <p class="section-subtitle">Sabemos que un entrenador no puede cambiar el sistema solo; necesita un
+                    entorno que lo sostenga. Por eso, hemos diseñado una estructura de capacitación para los tres
+                    vértices del triángulo deportivo:</p>
+            </div>
+
+            <div class="training-grid">
+                <div class="training-card reveal">
+                    <div class="training-card-accent"></div>
+                    <div class="training-icon"><i class="fas fa-whistle"></i></div>
+                    <h3>El Entrenador Formador</h3>
+                    <p>Cursos, certificaciones y recursos didácticos para que el técnico abandone la instrucción
+                        mecánica y aprenda a enseñar desde el cerebro del que aprende.</p>
+                    <ul class="training-features">
+                        <li><i class="fas fa-check"></i> Metodologías para gestionar el error como motor de aprendizaje
+                        </li>
+                        <li><i class="fas fa-check"></i> Pedagogía del respeto aplicada al entrenamiento</li>
+                        <li><i class="fas fa-check"></i> Recursos didácticos descargables</li>
+                    </ul>
+                </div>
+                <div class="training-card reveal delay-1">
+                    <div class="training-card-accent"></div>
+                    <div class="training-icon"><i class="fas fa-landmark"></i></div>
+                    <h3>El Directivo Humanista</h3>
+                    <p>Capacitación integral para presidentes y coordinadores. Les enseñamos a construir un verdadero
+                        "Sello de Club".</p>
+                    <ul class="training-features">
+                        <li><i class="fas fa-check"></i> Ética y protocolos de tolerancia cero</li>
+                        <li><i class="fas fa-check"></i> Evaluación del comportamiento como indicador de éxito</li>
+                        <li><i class="fas fa-check"></i> Gestión de clubes con visión humanista</li>
+                    </ul>
+                </div>
+                <div class="training-card reveal delay-2">
+                    <div class="training-card-accent"></div>
+                    <div class="training-icon"><i class="fas fa-home"></i></div>
+                    <h3>La Familia Aliada</h3>
+                    <p>Transformamos la grada. Dejamos de ver al padre como un problema para convertirlo en nuestro
+                        aliado estratégico.</p>
+                    <ul class="training-features">
+                        <li><i class="fas fa-check"></i> Guías para entender cómo aprenden los niños</li>
+                        <li><i class="fas fa-check"></i> Protección de la autoestima infantil frente a la presión</li>
+                        <li><i class="fas fa-check"></i> Espacios de formación para familias</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 6. COMITÉ DE EXPERTOS ===== -->
+    <section id="expertos" class="experts-section">
+        <div class="about-bg-image"></div>
+        <div class="about-overlay"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">👥 Comité</span>
+                <h2 class="section-title">Expertos e <span class="text-gradient">Investigadores</span></h2>
+                <p class="section-subtitle">El rigor científico y moral de nuestro Centro está respaldado por un equipo
+                    multidisciplinar que une el conocimiento académico con la experiencia en el césped.</p>
+            </div>
+
+            <div class="experts-note reveal">
+                <i class="fas fa-door-open"></i>
+                <p>Esta sección está permanentemente abierta a nuevas incorporaciones que compartan nuestro fin
+                    humanista.</p>
+            </div>
+
+            <div class="experts-grid">
+                <div class="expert-card reveal">
+                    <div class="expert-avatar" style="background: linear-gradient(135deg, #d4a843, #b8860b);">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="expert-info">
+                        <h3>Dr. Abel Merino</h3>
+                        <span class="expert-role">Doctor en Educación y Psicología</span>
+                        <p>Aporta el sustento científico a nuestras prácticas, alertando sobre los riesgos de calcar el
+                            fútbol adulto en la infancia y defendiendo la evaluación reflexiva.</p>
+                    </div>
+                </div>
+                <div class="expert-card reveal delay-1">
+                    <div class="expert-avatar" style="background: linear-gradient(135deg, #0fa968, #059669);">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="expert-info">
+                        <h3>Manuel Domínguez</h3>
+                        <span class="expert-role">Asesor Transversal de Contenidos</span>
+                        <p>Promotor del marco didáctico humanista. Impulsor de las relaciones interdisciplinares y de la
+                            aplicación práctica de autores como Maturana en el fútbol base.</p>
+                    </div>
+                </div>
+                <div class="expert-card reveal delay-2">
+                    <div class="expert-avatar" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="expert-info">
+                        <h3>David Llopis Goig</h3>
+                        <span class="expert-role">Psicólogo del Deporte · +30 años</span>
+                        <p>Su enfoque asegura que el rendimiento deportivo se logre siempre a través del bienestar
+                            mental del jugador, operando como traductor de la ciencia al "barro".</p>
+                    </div>
+                </div>
+                <div class="expert-card reveal delay-1">
+                    <div class="expert-avatar" style="background: linear-gradient(135deg, #a855f7, #7c3aed);">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="expert-info">
+                        <h3>David Urrego</h3>
+                        <span class="expert-role">Ingeniero y Entrenador · Modelo por Competencias</span>
+                        <p>Su investigación fomenta jugadores autónomos y creativos mediante el aprendizaje a través del
+                            juego y la resolución de problemas.</p>
+                    </div>
+                </div>
+                <div class="expert-card reveal delay-2">
+                    <div class="expert-avatar" style="background: linear-gradient(135deg, #ef4444, #b91c1c);">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="expert-info">
+                        <h3>Dr. Alberto Martín Barrero</h3>
+                        <span class="expert-role">Doctor en Ciencias del Deporte</span>
+                        <p>Diseña la formación integral centrada en la persona, utilizando la gestión del error como
+                            principal herramienta didáctica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 7. RECURSOS Y PUBLICACIONES ===== -->
+    <section id="recursos" class="resources-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">📚 Biblioteca</span>
+                <h2 class="section-title">Recursos y <span class="text-gradient">Publicaciones</span></h2>
+                <p class="section-subtitle">El conocimiento solo tiene valor si se comparte. En nuestra biblioteca de
+                    acceso abierto encontrarás:</p>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-card reveal">
+                    <div class="resource-icon"><i class="fas fa-newspaper"></i></div>
+                    <h3>Artículos y Reflexiones</h3>
+                    <p>Entrevistas, análisis y posts de nuestro blog para la actualización continua del formador.</p>
+                    <a href="#" class="resource-link">Explorar artículos <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="resource-card reveal delay-1">
+                    <div class="resource-icon"><i class="fas fa-download"></i></div>
+                    <h3>Herramientas Descargables</h3>
+                    <p>Tareas de entrenamiento, infografías, flashcards y protocolos de actuación ética listos para
+                        imprimir y aplicar en tu club.</p>
+                    <a href="#" class="resource-link">Ver herramientas <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="resource-card featured-resource reveal delay-2">
+                    <div class="featured-badge">Gran Proyecto</div>
+                    <div class="resource-icon"><i class="fas fa-book"></i></div>
+                    <h3>El Libro Blanco del Fútbol Formativo</h3>
+                    <p>Nuestro gran proyecto a futuro. Un documento vivo que recopilará las conclusiones de nuestros
+                        congresos e investigaciones para establecer el estándar ético y metodológico del fútbol base del
+                        mañana.</p>
+                    <a href="#" class="resource-link">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 8. CONTACTO Y ÚNETE ===== -->
+    <section id="unete" class="join-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">✉ Únete</span>
+                <h2 class="section-title">Apoya nuestro <span class="text-gradient">proyecto</span></h2>
+            </div>
+
+            <div class="join-manifesto reveal">
+                <p>No podemos enfrentarnos a una trituradora de sueños solo con buenas intenciones. <strong>Necesitamos
+                        investigación independiente. Necesitamos tu ayuda.</strong></p>
+                <p>El fútbol actual conoce el precio de mercado de un jugador, pero a menudo olvida el valor
+                    incalculable de proteger su infancia. Como bien nos recuerda la filosofía: <em>"todo necio confunde
+                        valor y precio"</em>.</p>
+                <p>Investigar con rigor, traducir la ciencia a herramientas prácticas para el entrenador que está en el
+                    barro y sostener nuestra independencia institucional requiere recursos reales. <strong>El fútbol
+                        base no cambiará solo.</strong></p>
+            </div>
+
+            <!-- Membresía -->
+            <div class="join-option reveal">
+                <div class="join-option-header">
+                    <span class="join-emoji">🤝</span>
+                    <div>
+                        <h3>Hazte Miembro de la Plataforma</h3>
+                        <p>Para entrenadores, directivos y familias que quieren pasar a la acción. Tendrás acceso
+                            prioritario a nuestros recursos, protocolos éticos y foros de debate. <strong>No estás solo
+                                en la banda.</strong></p>
+                    </div>
+                </div>
+                <a href="#contacto" class="btn btn-primary">Quiero ser Miembro <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Socios Protectores -->
+            <div class="patron-section reveal">
+                <div class="patron-header">
+                    <span class="join-emoji">🛡</span>
+                    <div>
+                        <h3>Conviértete en Socio Protector</h3>
+                        <p>Tu donación anual nos permite financiar a los expertos del Comité y crear materiales
+                            gratuitos para los clubes de barrio con menos recursos. Elige tu nivel de compromiso:</p>
+                    </div>
+                </div>
+
+                <div class="tiers-grid">
+                    <div class="tier-card reveal">
+                        <div class="tier-emoji">🌱</div>
+                        <h4>Nivel 1: Impulsor</h4>
+                        <div class="tier-price">10€ <span>/ año</span></div>
+                        <p>Con esta aportación simbólica nos ayudas a mantener viva nuestra estructura digital y la
+                            difusión de nuestro Manifiesto.</p>
+                    </div>
+                    <div class="tier-card reveal delay-1">
+                        <div class="tier-emoji">🛡</div>
+                        <h4>Nivel 2: Protector</h4>
+                        <div class="tier-price">100€ <span>/ año</span></div>
+                        <p>Sostienes directamente la creación y distribución de herramientas didácticas (infografías,
+                            guías) que llegan a las manos de los formadores.</p>
+                    </div>
+                    <div class="tier-card featured-tier reveal delay-2">
+                        <div class="tier-badge">Popular</div>
+                        <div class="tier-emoji">🏛</div>
+                        <h4>Nivel 3: Mecenas Formativo</h4>
+                        <div class="tier-price">500€ <span>/ año</span></div>
+                        <p>Nos permites becar horas de investigación pura y aplicada de nuestro Comité de Expertos para
+                            proyectos a largo plazo.</p>
+                    </div>
+                    <div class="tier-card reveal delay-3">
+                        <div class="tier-emoji">👑</div>
+                        <h4>Nivel 4: Guardián del Modelo</h4>
+                        <div class="tier-price">1000€ <span>/ año</span></div>
+                        <p>Para líderes y organizaciones con visión de trascendencia. Garantizas la viabilidad de
+                            nuestros congresos y la elaboración del Libro Blanco.</p>
+                    </div>
+                </div>
+
+                <div class="patron-cta reveal">
+                    <a href="#contacto" class="btn btn-primary btn-lg">Quiero ser Socio Protector y donar <i
+                            class="fas fa-heart"></i></a>
+                </div>
+            </div>
+
+            <!-- Contacto Directo -->
+            <div id="contacto" class="contact-block reveal">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>¿Necesitas contactar con nosotros?</h3>
+                        <p>Para colaboraciones institucionales, dudas técnicas o cualquier otra consulta.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@ceiff.org</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Madrid, España</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="contactSubject">
+                                <option value="" disabled selected>Selecciona un tema</option>
+                                <option value="miembro">Quiero ser Miembro</option>
+                                <option value="socio">Quiero ser Socio Protector</option>
+                                <option value="colaboracion">Colaboración Institucional</option>
+                                <option value="investigacion">Investigación</option>
+                                <option value="formacion">Programas de Formación</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" placeholder="Tu mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Enviar Mensaje
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-futbol"></i></span>
+                        <span class="logo-text">CEIFF</span>
+                    </div>
+                    <p>Centro de Estudios e Investigación de Fútbol Formativo. Más allá del marcador, formamos personas.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Navegación</h5>
+                    <a href="#centro">El Centro</a>
+                    <a href="#modelo">Modelo</a>
+                    <a href="#investigacion">Investigación</a>
+                    <a href="#capacitacion">Capacitación</a>
+                    <a href="#expertos">Expertos</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Recursos</h5>
+                    <a href="#">Artículos y Reflexiones</a>
+                    <a href="#">Herramientas Descargables</a>
+                    <a href="#">Libro Blanco</a>
+                    <a href="#">Manifiesto</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Contacto</h5>
+                    <a href="mailto:info@ceiff.org">info@ceiff.org</a>
+                    <a href="#">Madrid, España</a>
+                    <a href="#unete">Sé Miembro</a>
+                    <a href="#unete">Sé Socio Protector</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CEIFF — Centro de Estudios e Investigación de Fútbol Formativo. Todos los derechos
+                    reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
